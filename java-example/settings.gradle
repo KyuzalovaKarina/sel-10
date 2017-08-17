@@ -1,0 +1,4 @@
+rootProject.name = 'java-example'
+include 'untitled'
+findProject(':untitled')?.name = 'java-example'
+

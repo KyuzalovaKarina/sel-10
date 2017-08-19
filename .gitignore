@@ -1,4 +1,4 @@
-java-example/.gradle/*
-java-example/gradle/*
-java-example/.idea/*
+*/.gradle/*
+*/gradle/*
+*/.idea/*
 .idea/*

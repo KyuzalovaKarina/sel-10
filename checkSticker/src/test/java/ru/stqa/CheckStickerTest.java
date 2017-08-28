@@ -28,7 +28,7 @@ public class CheckStickerTest {
         driver.get("http://localhost/litecart/");
         List<WebElement> listElement = driver.findElements(By.className("image-wrapper"));
         for (WebElement element : listElement){
-            List<WebElement> stickers = element.findElements(By.tagName("div"));
+            List<WebElement> stickers = element.findElements(By.xpath("div[contains(@class,'sticker')]"));
             if (stickers.size() == 1){
                 System.out.println("Элемент имеет один стикер со значением " + stickers.get(0).getText());
             }
